@@ -1,0 +1,57 @@
+.placement-dashboard {
+  padding: 24px;
+  max-width: 1200px;
+  background-color: rgb(219, 244, 244);
+  margin: 0 auto;
+}
+
+.dashboard-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #2d3748;
+  margin-bottom: 24px;
+}
+
+.year-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.year-button {
+  padding: 8px 16px;
+  border-radius: 9999px;
+  font-weight: 500;
+  border: 2px solid #3182ce;
+  background-color: white;
+  color: #3182ce;
+  transition: all 0.2s;
+}
+.year-button:hover {
+  cursor: pointer;
+}
+
+.year-button.selected {
+  background-color: #3182ce;
+  color: white;
+}
+
+.placement-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.placement-table th,
+.placement-table td {
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.placement-table th {
+  background-color: #f7fafc;
+}
+

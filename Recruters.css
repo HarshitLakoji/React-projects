@@ -1,0 +1,28 @@
+.container {
+  background-color: rgb(234, 246, 248);
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+.recrutor-table {
+  max-width: 1200px;
+  width: 100%;
+  margin: 20px auto;
+  table-layout: fixed;
+}
+.title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.image-container {
+  border: 1px solid;
+  width: 100%;
+  object-fit: contain;
+  background-color: white;
+}
+
+.recrutor-table img {
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+  object-fit: contain;
+}
